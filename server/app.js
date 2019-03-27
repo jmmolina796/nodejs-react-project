@@ -12,9 +12,32 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, '../', 'client')));
 
-app.get('/', (req, res) => {
-  res.json({ message: "Hello World" });
+
+
+app.get('/api/users', (req, res) => {
+  setTimeout(() => {
+    res.json([
+      {
+        id: 1,
+        name: "Juan",
+        age: 15
+      },
+      {
+        id: 2,
+        name: "Ana",
+        age: 20
+      },
+      {
+        id: 3,
+        name: "Pedro",
+        age: 50
+      }
+    ]);
+  }, 1000);
 });
+
+
+
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {

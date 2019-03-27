@@ -1,9 +1,11 @@
-import React, { Component } from 'react';
+import React from "react";
 
-class App extends Component {
-  render() {
-    return <h1>Hello World</h1>;
-  }
-}
+import TableUsersContainer from "./containers/TableUsersContainer";
+
+const App = () => (
+  <>
+    <TableUsersContainer />
+  </>
+);
 
 export default App;
