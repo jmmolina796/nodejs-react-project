@@ -8,7 +8,7 @@ In order to execute the application in this repository, you have to follow the n
 2. Install [Node.js](https://nodejs.org/en/), [Git](https://git-scm.com/downloads) and [MySQL](https://dev.mysql.com/downloads/mysql/). If you already have installed one of these ones, you could skip steps 2 and 3.
 3. Once you have installed them, do not forget to verify whether you did it appropriately or not. Open your terminal and perform the following steps. 
     - Execute: `npm --v`. It has to appear the current version you have installed.
-    - Run: `node --v`. It has to appear the current version you have installed.
+    - Run: `node -v`. It has to appear the current version you have installed.
     - Call: `git --version`. It has to appear the current version you have installed.
     - Follow [these instructions](https://dev.mysql.com/doc/mysql-getting-started/en/#mysql-getting-started-installing) so that you could configure MySQL. If you already have MySQL configured correctly, you could skip this step.
 4. Now, you have to clone this repository. Open your terminal and place it in the location where you want to clone this repository (it could be Desktop, Documents, etcetera). Then, run `git clone https://github.com/jmmolina796/nodejs-react-project`.
@@ -25,6 +25,7 @@ In order to execute the application in this repository, you have to follow the n
     - `npm start`
     
     It has to open your default browser and display a website with the phrase **Hello World**.
+<<<<<<< HEAD
 
 
     ## Slides and tutorials
@@ -32,3 +33,5 @@ In order to execute the application in this repository, you have to follow the n
     You can get the slides from this link: [Slides](https://slides.com/jmmolina796/react-node)
 
     The suggested tutorials are in the slides.
+=======
+>>>>>>> remotes/origin/master
