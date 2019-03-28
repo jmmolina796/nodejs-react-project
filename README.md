@@ -25,13 +25,9 @@ In order to execute the application in this repository, you have to follow the n
     - `npm start`
     
     It has to open your default browser and display a website with the phrase **Hello World**.
-<<<<<<< HEAD
-
 
     ## Slides and tutorials
 
     You can get the slides from this link: [Slides](https://slides.com/jmmolina796/react-node)
 
     The suggested tutorials are in the slides.
-=======
->>>>>>> remotes/origin/master
