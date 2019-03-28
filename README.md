@@ -2,9 +2,9 @@
 
 ## Slides and tutorials
 
-    You can get the slides from this link: [Slides](https://slides.com/jmmolina796/react-node)
+You can get the slides from this link: [Slides](https://slides.com/jmmolina796/react-node)
 
-    The suggested tutorials are in the slides.
+The suggested tutorials are in the slides.
 
 ## Installation Instructions
 
