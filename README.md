@@ -1,5 +1,11 @@
 # React and Node.js Web Application
 
+## Slides and tutorials
+
+    You can get the slides from this link: [Slides](https://slides.com/jmmolina796/react-node)
+
+    The suggested tutorials are in the slides.
+
 ## Installation Instructions
 
 In order to execute the application in this repository, you have to follow the next instructions:
@@ -25,9 +31,3 @@ In order to execute the application in this repository, you have to follow the n
     - `npm start`
     
     It has to open your default browser and display a website with the phrase **Hello World**.
-
-    ## Slides and tutorials
-
-    You can get the slides from this link: [Slides](https://slides.com/jmmolina796/react-node)
-
-    The suggested tutorials are in the slides.
